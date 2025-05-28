@@ -1,11 +1,22 @@
 [project]
-name = "uv-template"
+name = "mental-health-forecast"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "timsu92",email = "33785401+timsu92@users.noreply.github.com"}
-]
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
+    "fastparquet>=2024.11.0",
+    "imbalanced-learn>=0.13.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.5",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scikit-learn-intelex>=2025.5.0; sys_platform != 'darwin'",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
