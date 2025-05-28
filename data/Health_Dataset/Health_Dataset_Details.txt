@@ -1,0 +1,456 @@
+Decoded Values for All Columns :
+ADM_RNO1 : This column is not encoded
+Province : Coding of this column does not add any deeper insights into the data
+Health_region_grouped - Code Mapping
+Note: This variable is the health region based on GEODVPC (postal code) and is derived using the information available on the survey frame at the time of sampling and the geographic information provided by the respondent. GEODVHR4 and GEODVPC are not included in the Public Use Microdata File.
+Code	Meaning
+10911	Eastern Regional
+10912	Central Regional
+11900	Prince Edward Island
+12901	Zone 1 - Western
+12902	Zone 2 - Northern
+12903	Zone 3 - Eastern
+12904	Zone 4 - Central
+13901	Zone 1 (Moncton area)
+13902	Zone 2 (Saint John area)
+13903	Zone 3 (Fredericton area)
+24901	Bas-Saint-Laurent
+24902	Saguenay - Lac-Saint-Jean
+24903	Capitale-Nationale
+24904	Mauricie et du Centre-du-Québec
+24905	L’Estrie
+24906	Région de Montréal
+24907	L’Outaouais
+24908	L’Abitibi-Témiscamingue
+24909	Côte-Nord
+24911	Gaspésie - Îles-de-la-Madeleine
+24912	Chaudière-Appalaches
+24913	Région de Laval
+24914	Région de Lanaudière
+24915	Région des Laurentides
+24916	Montérégie
+35926	The District of Algoma HU
+35927	Brant County HU
+35930	Durham Regional HU
+35933	Grey Bruce HU
+35934	Haldimand-Norfolk HU
+35935	Haliburton, Kawartha, Pine Ridge District HU
+35936	Halton Regional HU
+35937	City of Hamilton HU
+35938	Hastings and Prince Edward Counties HU
+35939	Group: GEODVHR4 = (3539, 3554)
+35940	Chatham-Kent HU
+35941	Kingston, Frontenac and Lennox and Addington HU
+35942	Lambton HU
+35943	Leeds, Grenville and Lanark District HU
+35944	Middlesex-London HU
+35946	Niagara Regional Area HU
+35947	Group: GEODVHR4 = (3547, 3563)
+35949	Group: GEODVHR4 = (3549, 3556)
+35951	City of Ottawa HU
+35953	Peel Regional HU
+35955	Peterborough County-City HU
+35957	Renfrew County and District HU
+35958	Eastern Ontario HU
+35960	Simcoe Muskoka District HU
+35961	Sudbury and District HU
+35962	Thunder Bay District HU
+35965	Waterloo HU
+35966	Wellington-Dufferin-Guelph HU
+35968	Windsor-Essex County HU
+35970	York Regional HU
+35975	Oxford Elgin St. Thomas HU
+35995	City of Toronto HU
+46901	Winnipeg RHA
+46902	Prairie Mountain Health
+46903	Group: GEODVHR4 = (4603, 4604)
+46905	Southern Health
+47901	Group: GEODVHR4 = (4701, 4702, 4703)
+47904	Regina Qu’Appelle RHA
+47905	Group: GEODVHR4 = (4705, 4708)
+47906	Saskatoon RHA
+47907	Group: GEODVHR4 = (4707, 4710)
+47909	Group: GEODVHR4 = (4709, 4714)
+48931	South Zone
+48932	Calgary Zone
+48933	Central Zone
+48934	Edmonton Zone
+48935	North Zone
+59911	East Kootenay HSDA
+59912	Kootenay-Boundary HSDA
+59913	Okanagan HSDA
+59914	Thompson/Cariboo HSDA
+59921	Fraser East HSDA
+59922	Fraser North HSDA
+59923	Fraser South HSDA
+59931	Richmond HSDA
+59932	Vancouver HSDA
+59933	North Shore/Coast Garibaldi HSDA
+59941	South Vancouver Island HSDA
+59942	Central Vancouver Island HSDA
+59943	North Vancouver Island HSDA
+59951	Group: GEODVHR4 = (5951, 5953)
+59952	Northern Interior HSDA
+60901	Yukon/Northwest Territories/Nunavut
+
+Gender: Sex at birth
+No Question
+Code	Meaning
+1	Male
+2	Female
+9	Not stated
+
+Marital_status : Marital status - grouped
+No Question
+Code	Meaning
+1	Married/Common-law
+2	Widowed/Divorced/Separated/Single, never married
+3	Valid skip
+9	Not stated
+Household: Household size – Grouped
+No Question 
+Code	Meaning
+1	Lives alone (household size=1)
+2	Household size 2 or more
+9	Not stated
+Age: Age – Grouped
+No Question 
+Code	Meaning
+1	12 to 17 years
+2	18 to 34 years
+3	35 to 49 years
+4	50 to 64 years
+5	65 and older
+Worked_job_business: Worked at job / business - 12 mo
+Question: Have you worked at a job or business at any time in the past 12 months?
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+9	Not stated
+Edu_level: Highest level of education - household, 3 levels - (D)
+No Question
+Code	Meaning
+1	Less than secondary school graduation
+2	Secondary school graduation, no post-secondary education
+3	Post-secondary certificate/diploma /university degree
+9	Not stated
+Gen_health_state: Perceived health
+Question: In general, would you say your health is... ?
+Code	Meaning
+1	Excellent
+2	Very good
+3	Good
+4	Fair
+5	Poor
+6	Don’t know
+9	Refusal
+Life_satisfaction: Satisfaction with life in general
+Question: Using a scale of 0 to 10, where 0 means "Very dissatisfied" and 10 means "Very satisfied", how do you feel about your life as a whole right now?
+Code	Meaning
+00-10	Scale of 0 to 10
+97	Don’t know
+98	Refusal
+99	Not stated
+Mental_health_state: Perceived mental health
+Question: In general, would you say your mental health is...?
+Code	Meaning
+1	Excellent
+2	Very good
+3	Good
+4	Fair
+5	Poor
+7	Don’t know
+8	Refusal
+9	Not stated
+Stress_level: Perceived life stress
+Question : Thinking about the amount of stress in your life, would you say that most of your days are...?
+Code	Meaning
+1	Not at all stressful
+2	Not very stressful
+3	A bit stressful
+4	Quite a bit stressful
+5	Extremely stressful
+7	Don’t know
+8	Refusal
+Work_stress: Perceived stress at work
+Question: Would you say that most days at work were...?
+Code	Meaning
+1	Not at all stressful
+2	Not very stressful
+3	A bit stressful
+4	Quite a bit stressful
+5	Extremely stressful
+6	Valid skip
+7	Don’t know
+8	Refusal
+9	Not stated
+Sense_belonging:
+Question: How would you describe your sense of belonging to your local community? Would you say it is...?
+Code	Meaning
+1	Very strong
+2	Somewhat strong
+3	Somewhat weak
+4	Very weak
+7	Don’t know
+8	Refusal
+9	Not stated
+Weight_state:  Self-perceived weight 
+Question: Do you consider yourself...?
+Code	Meaning
+1	Overweight
+2	Underweight
+3	Just about right
+6	Valid skip
+7	Don’t know
+8	Refusal
+9	Not stated
+BMI_12_17 : BMI age 12 to 17 (self-reported) - WHO classification - (D, G)
+No Question
+Code	Meaning
+1	Thinness/Normal
+2	Overweight/Obese
+6	Valid skip
+9	Not stated
+BMI_18_above : BMI classification for adults aged 18 and over (adjusted) – internati
+No Question
+Code	Meaning
+1	Underweight/ Normal weight
+2	Overweight / Obese - Class I, II, III
+6	Valid skip
+9	Not stated
+Sleep_apnea : Has sleep apnea
+Question: Have you been told by a health professional that you have sleep apnea?
+Code	Meaning
+1	Yes
+2	No
+7	Don’t know
+8	Refusal
+High_BP : High blood pressure - took medication - 1 mo
+Question: Do you have high blood pressure?
+Code	Meaning
+1	Yes
+2	No
+7	Don’t know
+8	Refusal
+
+High_cholestrol : High blood cholesterol / lipids - took medication - 1 mo
+Question: Do you have high blood pressure?
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+
+Diabetic : Has diabetes
+Question Do you have diabetes?
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+
+Fatigue_syndrome : Has chronic fatigue syndrome
+Question: Do you have chronic fatigue syndrome?
+Code	Meaning
+1	Yes
+2	No
+7	Don’t know
+8	Refusal
+
+Mood_disorder : Has a mood disorder (depression, bipolar, mania, dysthymia)
+Question: Do you have a mood disorder such as depression, bipolar disorder, mania or dysthymia?
+Code	Meaning
+1	Yes
+2	No
+7	Don’t know
+8	Refusal
+
+Anxiety_disorder : Has an anxiety disorder (phobia, OCD, panic)
+Question: Do you have an anxiety disorder such as a phobia, obsessive-compulsive disorder or a panic disorder?
+Code	Meaning
+1	Yes
+2	No
+7	Don’t know
+8	Refusal
+
+Respiratory_chronic_con: Has respiratory chronic condition (asthma or COPD)
+No Question
+Code	Meaning
+1	Yes
+2	No
+9	Not stated
+Musculoskeletal_con: Musculoskeletal condition (Arthritis, fibromyalgia, osteoporosis)
+Code	Meaning
+1	Yes
+2	No
+6	Valid Skip
+9	Not stated
+Cardiovascular_con: Cardiovascular condition (Heart disease or stroke)
+Code	Meaning
+1	Yes
+2	No
+9	Not stated
+Health_utility_indx: Health utilities index - (D, G)
+No Question
+Code	Meaning
+1	HUI Score < 0.8 (functional Health less than ’good to full’)
+2	No
+9	Not stated
+Pain_status: Pain health status – Grouped
+No Question
+Code	Meaning
+1	No usual pain or discomfort
+2	Has usual pain or discomfort
+9	Not stated
+Act_improve_health: Did something to improve health - 12 mo
+Question: Now, some questions about changes made to improve health. In the past 12 months, did you do anything to improve your health? (For example, lost weight, quit smoking, increased exercise.)
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+Fruit_veg_con: Grouping of total daily consumption - fruits and vegetables - (D)
+Code	Meaning
+1	Less than 5 times/day
+2	5-10 times/day
+3	More than 10 times/day
+6	Valid skip
+9	Not stated
+Smoked: Num of cigarettes smoked daily (daily smoker)
+Question: How many cigarettes do you smoke each day now?
+Code	Meaning
+001 - 080	Number of cigarettes smoked daily
+996	Valid skip
+997	Don't know
+998	Refusal
+999	Not stated
+Tobaco_use: Used chewing tobacco / pinch / snuff - 30 d
+Question: Alternative tobacco product usage - (D)
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+9	Not stated
+
+weekly_alcohol: Drank alcohol - 12 mo
+Question: During the past 12 months, that is, from [date one year ago] to yesterday, have you had a drink of beer, wine, liquor or any other alcoholic beverage?
+Code	Meaning
+1	Yes
+2	No
+6	Valid skip
+7	Don’t know
+8	Refusal
+9	Not stated
+
+Cannabies_use: Used cannabis - 12 mo
+Have you used cannabis in the past 12 months?
+Code	Meaning
+1	Non-medical purposes only
+2	Medical purposes only
+3	Both medical and non-medical purposes
+6	Valid skip
+7	Don't know
+8	Refusal
+9	Not stated
+Drug_use: Any illicit drug use - 12 mo - (D)
+No Question
+Code	Meaning
+1	Has used at least one of the drugs - 12 mo
+2	Has not used any of the drugs - 12 mo
+3	Valid skip
+4	Not stated
+Total_active_time: Active transportation - 7 d - total – hours
+Question: How much time in total, in the last 7 days, did you spend doing these activities? Please only include activities that lasted a minimum of 10 continuous minutes.
+Code	Meaning
+00000-30240	Total weekly volume of activity
+99996	Valid skip
+99997	Don’t know
+99998	Refusal
+99999	Not stated
+Total_physical_act_time: Sports / fitness / recreational physical act 7 Days
+Question: [Not including activities you just reported,] in the last 7 days, did you do sports, fitness or recreational physical activities, organized or non-organized, that lasted a minimum of 10 continuous minutes? Examples are walking, home or gym exercise, swimming, cycling, running, skiing, dancing and all team sports.
+Code	Meaning
+0000-2100	Minutes spent in physical activity
+99996	Valid skip
+99998	Don't know
+99999	Not stated
+
+Other_physical_act_time: Other physical activities - 7 d - total – minutes
+Question: Enter number of minutes.
+Code	Meaning
+0000-2100	Minutes spent in physical activity
+99996	Valid skip
+99998	Don't know
+99999	Not stated
+Physical_vigorous_act_time: Physical activities - vigorous intensity-total – 7 Days minutes
+Question: In the last 7 days, how much time in total did you spend doing vigorous activities that caused you to be out of breath?
+Code	Meaning
+00000 - 04860	Num of minutes - vigorous physical act - 7d
+99996	Valid Skip
+99999	Not stated
+Work_hours: Total usual hours worked per week – Grouped
+Note : Respondents aged 18 to 64
+Code	Meaning
+00-60	Reported work hours
+96	Valid skip
+99	Not stated
+working_status : Full-time / part-time working status (for total usual hours)
+Note: Respondents aged 18 to 64
+Code	Meaning
+1	Full-time
+2	Part-time
+6	Valid Skip
+9	Not stated
+Aboriginal_identity: Aboriginal identity - First nations / Métis / Inuk (Inuit)
+Question: Are you an Aboriginal person, that is, First Nations, Métis or Inuk (Inuit)? First Nations includes Status and Non-Status Indians.
+Code	Meaning
+1	Yes
+2	No
+7	Don't know
+8	Refusal
+9	Not stated
+Birth_country: Country of birth - Canada/other
+Code	Meaning
+1	Canada
+2	Other
+3	Not stated
+Immigrant
+Code	Meaning
+1	Landed immigrant / non-permanent resident
+2	Non-immigrant (Canadian born)
+9	Not stated
+Insurance_cover: Health insurance coverage
+Code	Meaning
+1	Yes
+2	No
+9	Not stated
+Food_security: Food security - adult status (including marginally) -
+Code	Meaning
+0	Food secure
+1	Marginally food insecure
+2	Moderately food insecure
+3	Severely food insecure
+6	Valid skip
+9	Not stated
+Income_source: Total household income - main source - Grouped
+Code	Meaning
+1	Wages/salaries or self-employment
+2	Other
+9	Not stated
+Total_income
+Code	Meaning
+1	No income or less than $20,000
+2	$20,000 to $39,999
+3	$40,000 to $59,999
+4	$60,000 to $79,999
+5	$80,000 or more
+9	Not stated
+
